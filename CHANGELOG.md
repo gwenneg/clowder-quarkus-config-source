@@ -1,5 +1,27 @@
 # Changelog
 
+## [2.6.0](https://github.com/gwenneg/clowder-quarkus-config-source/compare/v2.5.0...v2.6.0) (2024-02-29)
+
+
+### Features
+
+* [RHCLOUD-30340] add Kafka SSL config with a certificate provide… ([#211](https://github.com/gwenneg/clowder-quarkus-config-source/issues/211)) ([6922171](https://github.com/gwenneg/clowder-quarkus-config-source/commit/69221710f4a9a640093690f3ef09cbb8168ec51f))
+* Be able to expose Kafka config keys from ClowderConfigSource ([#198](https://github.com/gwenneg/clowder-quarkus-config-source/issues/198)) ([35f5e7c](https://github.com/gwenneg/clowder-quarkus-config-source/commit/35f5e7cdb425b1b245226a821fa3a088f5168bbf))
+* Bump Java from 11 to 17 ([#159](https://github.com/gwenneg/clowder-quarkus-config-source/issues/159)) ([eb65d59](https://github.com/gwenneg/clowder-quarkus-config-source/commit/eb65d5953ddeb52336ed620d6ac45f7e6af1d875))
+* Bump Quarkus to 3.7.4 ([#227](https://github.com/gwenneg/clowder-quarkus-config-source/issues/227)) ([ff3495a](https://github.com/gwenneg/clowder-quarkus-config-source/commit/ff3495a16682b25330617ac9a2586b5cc08797eb))
+* Fix project version and trigger a new release ([#153](https://github.com/gwenneg/clowder-quarkus-config-source/issues/153)) ([fe5a37e](https://github.com/gwenneg/clowder-quarkus-config-source/commit/fe5a37e04a2c06d332ab2622c2e520a8de76e12d))
+* Resolve computed properties for Kafka topics ([c485a66](https://github.com/gwenneg/clowder-quarkus-config-source/commit/c485a6620ac559303ced114c74fb59dd036177e3))
+* support Camel Kafka props ([#96](https://github.com/gwenneg/clowder-quarkus-config-source/issues/96)) ([3fc6e40](https://github.com/gwenneg/clowder-quarkus-config-source/commit/3fc6e40fc919a09017112605fea85368f5658f78))
+
+
+### Bug Fixes
+
+* Add nexus-staging-maven-plugin ([#156](https://github.com/gwenneg/clowder-quarkus-config-source/issues/156)) ([4b0dde5](https://github.com/gwenneg/clowder-quarkus-config-source/commit/4b0dde5b63b4de87a475503a3ec0b5cc6d5c2f15))
+* artefact version ([#200](https://github.com/gwenneg/clowder-quarkus-config-source/issues/200)) ([56b0ef2](https://github.com/gwenneg/clowder-quarkus-config-source/commit/56b0ef23353bff6519b1afec7bde862db69fd72a))
+* Deploy sources and javadoc ([#160](https://github.com/gwenneg/clowder-quarkus-config-source/issues/160)) ([e9408d1](https://github.com/gwenneg/clowder-quarkus-config-source/commit/e9408d1f1fffd71c4d6cf8cddad50c9a47301dd3))
+* **logging:** only look for type null ([#87](https://github.com/gwenneg/clowder-quarkus-config-source/issues/87)) ([0eba62c](https://github.com/gwenneg/clowder-quarkus-config-source/commit/0eba62c6e484251eabcc1c42de61a52cfdd51f1e))
+* restart release 2.1.0 ([#204](https://github.com/gwenneg/clowder-quarkus-config-source/issues/204)) ([a0d051e](https://github.com/gwenneg/clowder-quarkus-config-source/commit/a0d051e64b8b335293806e15e52cb7fe461363e0))
+
 ## [2.5.0](https://github.com/RedHatInsights/clowder-quarkus-config-source/compare/v2.4.0...v2.5.0) (2024-02-29)
 
 
